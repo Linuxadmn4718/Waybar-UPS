@@ -18,7 +18,7 @@ Dependancies: yad, apcupsd
 
 To install:
 
-Make sure you have yad installed and apcupsd installed and configured to comunicate with your UPS 
+Make sure you have yad installed and apcupsd installed and configured to communicate with your UPS 
 
 Clone the repository / download the zip.
 
