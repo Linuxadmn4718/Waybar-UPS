@@ -21,7 +21,9 @@ Make sure you have yad installed and apcupsd installed and configured to comunic
 
 Clone the repository / download the zip.
 
-Copy the .sh files to you ~/.config/hypr/scripts folder
+Copy upstest.sh and apc_info.sh to your ~/.config/hypr/scripts folder
+
+From ~/.config/hypr/scripts run sudo chmod +x apc_info.sh upstest.sh
 
 Add the example module to your config.jsonc
 
