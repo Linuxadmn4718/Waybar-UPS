@@ -12,7 +12,7 @@ MINSLEFT=$(echo $TIMELEFT | awk -F'.' '{print $1}')
 if [ "$LINEV" == "0.0 Volts" ]; then
   printf '{"text":" %sm","class":"linev"}' "$MINSLEFT"
 else
-     if [ "$STATUS" == "ONLINE SLAVE" ]; then
+     if [ "$STATUS" == "ONLINE SLAVE" ] || [ "$STATUS" == "ONLINE" ]; 
        printf '{"text":" %sm","class":"enabled"}' "$MINSLEFT"
      else
        printf '{"text":" OFFLINE","class":"disabled"}'
