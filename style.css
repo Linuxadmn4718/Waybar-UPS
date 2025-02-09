@@ -1,0 +1,7 @@
+ #custom-ups.enabled {
+    color: green;
+}
+
+ #custom-ups.disabled {
+    color: red;
+}

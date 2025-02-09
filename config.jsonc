@@ -1,0 +1,7 @@
+    "custom/ups": {
+        "format": "{}",
+        "exec": "~/.config/hypr/scripts/upstest",
+        "return-type": "json",
+        "interval": 15, // execute script every n seconds; adjust as desired
+        "on-click": "~/.config/hypr/scripts/apc_info.sh"
+    },
