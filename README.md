@@ -1,6 +1,7 @@
 # UPS Waybar Module
 
-This Waybar module provides a live battery status of both local and network enabled UPS
+This Waybar module provides a live battery status of both local and network enabled UPS along with all UPS information.
+
 Dependancies: yad, apcupsd
 
 ## Features
