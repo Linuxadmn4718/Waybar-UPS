@@ -26,6 +26,6 @@ Copy upstest.sh and apc_info.sh to your ~/.config/hypr/scripts folder
 
 From ~/.config/hypr/scripts run sudo chmod +x apc_info.sh upstest.sh
 
-Add the example module to your config.jsonc
+Add the example module to your config.jsonc. Do not forget to add "custom/ups", to you modules-[LOCATION] (left,center,right)
 
-Add the example style to you style.css
+Add the example style to you style.css. Do not forget to add #custom-ups, to your list of modules in you styles.css.
